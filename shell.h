@@ -24,4 +24,7 @@ void str_spl(char *string);
 int suenv(void);
 void exe(char **tokz);
 char *pathfinder(const char *locate);
+char *strchar(char *dm, char gen);
+char *strconca(char *destination, char *source, int x);
+char *strcopy(char *destination, char *source, int x);
 #endif
